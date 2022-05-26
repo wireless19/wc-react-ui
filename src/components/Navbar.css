@@ -1,0 +1,7 @@
+hr {
+  border: 1px solid;
+  border-image: linear-gradient(45deg, blue, white) 1;
+  color: blue;
+  width: 35%;
+  margin-top: 3px;
+}

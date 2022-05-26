@@ -1,0 +1,56 @@
+.bg-image {
+  background-image: url("/public/img/family.jpg");
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.enquire-con {
+  margin-right: -40px;
+  margin-left: 0;
+  position: fixed;
+  top: 57%;
+  right: 0%;
+  transform: rotateZ(-90deg);
+  z-index: 10;
+}
+
+.enquire-con .btn {
+  border-radius: 0;
+}
+
+.card-body i {
+  padding-left: 30%;
+}
+
+.backdrop {
+  background-image: url("/public/img/whitebg.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.second-sec {
+  background-image: url("/public/img/blackbg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.second-sec .bg-color {
+  background-color: #000000;
+  opacity: 3.5;
+}
+
+.gift {
+  width: 550px;
+  height: 350px;
+}
+
+.accordion-button::after {
+  content: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
